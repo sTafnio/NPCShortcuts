@@ -8,6 +8,6 @@ namespace NPCShortcuts;
 public class NPCShortcutsSettings : ISettings
 {
     public ToggleNode Enable { get; set; } = new ToggleNode(false);
-	public ColorNode TextColor { get; set; } = new ColorNode(Color.White);
+    public ColorNode TextColor { get; set; } = new ColorNode(Color.White);
 
 }
