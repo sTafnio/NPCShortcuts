@@ -426,7 +426,75 @@ public static class NPCDatabase
                 Ctrl = "Annoint",
             }
         },
-        // missing kingsmarch npcs
-        // Kingsmarch
+        {
+            "Metadata/NPC/Missions/Hideout/Helena", new NPC
+            {
+                Name = "Helena",
+                Ctrl = "Change Hideout",
+                CtrlAlt = "Sell",
+            }
+        },
+		// Kingsmarch
+	    {
+            "Metadata/NPC/League/Kalguur/VillageTujen", new NPC
+            {
+                Name = "Tujen, the Habourmaster",
+                Ctrl = "Shipping",
+				Alt = "Sell",
+            }
+        },
+	    {
+            "Metadata/NPC/League/Kalguur/VillageRog", new NPC
+            {
+                Name = "Rog, the Disenchanter",
+                Ctrl = "Disenchant",
+				Alt = "Sell",
+            }
+        },		
+		{
+            "Metadata/NPC/League/Kalguur/VillageRecruiter", new NPC
+            {
+                Name = "Raulf, the Recruiter",
+                Ctrl = "Recruit Workers",
+            }
+        },		
+		{
+            "Metadata/NPC/League/Kalguur/VillageMayor", new NPC
+            {
+                Name = "Johan, the King's Hand",
+                Ctrl = "Manage Town",
+            }
+        },
+		{
+            "Metadata/NPC/League/Kalguur/VillageMayorHideout", new NPC
+            {
+                Name = "Johan, the King's Hand",
+                Ctrl = "Manage Town",
+            }
+        },
+		{
+            "Metadata/NPC/League/Kalguur/VillageIsla", new NPC
+            {
+                Name = "Isla, the Engineer",
+                Ctrl = "Sell",
+            }
+        },			
+		{
+            "Metadata/NPC/League/Kalguur/VillageFaustus", new NPC
+            {
+                Name = "Faustus, the Financier",
+                Ctrl = "Respecialise",
+				Alt = "Black Market / Currency Exchange",
+            }
+        },	
+		{
+            "Metadata/NPC/League/Kalguur/VillageFaustusHideout", new NPC
+            {
+                Name = "Faustus, the Financier",
+                Ctrl = "Respecialise",
+				Alt = "Black Market / Currency Exchange",
+            }
+        },					
+
     };
 }

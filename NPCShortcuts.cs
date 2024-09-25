@@ -59,7 +59,7 @@ public class NPCShortcuts : BaseSettingsPlugin<NPCShortcutsSettings>
         Graphics.DrawBox(new RectangleF(boxPos.X, boxPos.Y, boxSize.X, boxSize.Y), Color.Black);
 
         var textPos = new Vector2(boxPos.X, boxPos.Y);
-        Graphics.DrawText(stringToDisplay, textPos, Color.White);
+        Graphics.DrawText(stringToDisplay, textPos, Settings.TextColor);
     }
 
 
